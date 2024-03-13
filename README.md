@@ -28,3 +28,6 @@ OpenTrench3D comprises 310 point clouds:
 
 
 # Results
+
+# License:
+OpenTrench3D is distributed under the [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
