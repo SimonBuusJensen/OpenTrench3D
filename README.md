@@ -1,5 +1,5 @@
 # OpenTrench3D: A 3D Point Cloud Dataset of Open Trenches for Semantic Segmentation of Underground Utilities
-[**[Paper]**]() [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**]()
+[**[Paper]**]() [**[Download]**](#download) [**[Results]**](#results)
 
 ![Group 69](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/08534599-0b4a-4e17-88ee-7b9bacf99d6d)
 
