@@ -22,6 +22,12 @@ OpenTrench3D features 4 classes:
 
 ![Group 67](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/23732797-5cb0-4531-8fc3-0bacaaaef2e6)
 
+## Statistics
+The number of point clouds in each area and the number of points per class and in total (stated in thousands).
+
+![image](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/7254c8a7-567c-4a72-95cf-faad7af4b446)
+
+
 # Capturing Method:
 TODO
 
