@@ -24,6 +24,16 @@ OpenTrench3D features 4 classes:
 
 ![Group 67](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/23732797-5cb0-4531-8fc3-0bacaaaef2e6)
 
+## Attributes:
+The format of a points cloud is the following: [X, Y, Z, R, G, B, C]
+- X: x-coordinates
+- Y: y-coordinates
+- Z: z-coordinates
+- R: Red color channel
+- G: Green color channel
+- B: Blue color channel
+- C: Class id
+
 ## Statistics
 The number of point clouds in each area and the number of points per class and in total (stated in thousands).
 
@@ -35,7 +45,6 @@ TODO
 
 # Download:
 OpenTrench3D comprises 310 point clouds:
-
 
 # Results
 
