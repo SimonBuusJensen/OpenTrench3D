@@ -26,13 +26,13 @@ OpenTrench3D features 4 classes:
 
 ## Attributes:
 The format of a points cloud is the following: [X, Y, Z, R, G, B, C]
-- X: x-coordinates
-- Y: y-coordinates
-- Z: z-coordinates
-- R: Red color channel
-- G: Green color channel
-- B: Blue color channel
-- C: Class id
+- X: x-coordinates (meters)
+- Y: y-coordinates (meters)
+- Z: z-coordinates (meters)
+- R: Red color channel (0-255)
+- G: Green color channel (0-255)
+- B: Blue color channel (0-255)
+- C: Class id (0, 1, 2 or 3)
 
 ## Statistics
 The number of point clouds in each area and the number of points per class and in total (stated in thousands).
