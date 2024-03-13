@@ -44,7 +44,8 @@ The number of point clouds in each area and the number of points per class and i
 TODO
 
 # Download:
-OpenTrench3D comprises 310 point clouds:
+OpenTrench3D comprises 310 point clouds in .ply file format:
+
 
 # Results
 
