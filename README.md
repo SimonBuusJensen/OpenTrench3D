@@ -48,7 +48,7 @@ OpenTrench3D comprises 310 point clouds in .ply file format:
 
 **OpenTrench3D on Kaggle**: [link](https://www.kaggle.com/datasets/hestogpony/opentrench3d/data?select=Examples)
 
-**Direct Download link (~5GB compressed and ~18GB when uncompressed)**: [link](https://www.kaggle.com/datasets/hestogpony/opentrench3d/download?datasetVersionNumber=1)
+**Direct Download link (~6GB compressed and ~22.5GB when uncompressed)**: [link](https://www.kaggle.com/datasets/hestogpony/opentrench3d/download?datasetVersionNumber=1)
 
 
 # Results
