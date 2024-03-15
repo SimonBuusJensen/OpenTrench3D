@@ -35,7 +35,7 @@ The format of a points cloud is the following: [X, Y, Z, R, G, B, C]
 - C: Class id (0, 1, 2 or 3)
 
 ## Statistics
-The number of point clouds in each area and the number of points per class and in total (stated in thousands).
+OpenTrench3D comprises ~498 million points. The below figure, displays the number of point clouds in each area and the number of points per class and in total (stated in thousands).
 
 ![image](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/7254c8a7-567c-4a72-95cf-faad7af4b446)
 
