@@ -13,7 +13,7 @@ OpenTrench3D comprises photogrammetrically derived 3D point clouds capturing det
 ## Overview:
 The dataset consists of 310 point clouds collected across 7 distinct areas, which include 5 water utility areas collected in Copenhagen, Denmark and 2 district heating utility areas, collected in Kalundborg, Denmark.
 
-![Group 68 (1)](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/8a90a225-10b5-469a-8fed-47a485d5173e)
+![Group 96 (2)](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/cffeaf36-3768-4aac-830b-ed3fea61de6e)
 
 ## Classes:
 OpenTrench3D features 4 classes: 
