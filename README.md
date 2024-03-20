@@ -16,13 +16,14 @@ The dataset consists of 310 point clouds collected across 7 distinct areas, whic
 ![Group 96 (2)](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/cffeaf36-3768-4aac-830b-ed3fea61de6e)
 
 ## Classes:
-OpenTrench3D features 4 classes: 
-- Main Utility Pipe (id: 0)
-- Other Utility Pipe (id: 1)
+OpenTrench3D features 5 classes: 
+- Main Utility (id: 0)
+- Other Utility (id: 1)
 - Trench (id: 2)
-- Ignored Objects (ignored in training/evaluation) (id: 3)
+- Inactive Utility (ignored in training/evaluation) (id: 3)
+- Misc (ignored in training/evaluation) (id: 4)
 
-![Group 67](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/23732797-5cb0-4531-8fc3-0bacaaaef2e6)
+![gew](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/b56bf874-0142-4a74-867c-886037431aec)
 
 ## Attributes:
 The format of a points cloud is the following: [X, Y, Z, R, G, B, C]
