@@ -26,27 +26,22 @@ OpenTrench3D features 5 classes:
 
 ![gew](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/b56bf874-0142-4a74-867c-886037431aec)
 
-## Attributes:
-The format of a points cloud is the following: [X, Y, Z, R, G, B, C]
-- X: x-coordinates (meters)
-- Y: y-coordinates (meters)
-- Z: z-coordinates (meters)
-- R: Red color channel (0-255)
-- G: Green color channel (0-255)
-- B: Blue color channel (0-255)
-- C: Class id (0, 1, 2, 3 or 4) 
-
 ## Statistics
-OpenTrench3D comprises ~498 million points. The below figure, displays the number of point clouds in each area and the number of points per class and in total (stated in thousands).
-
-![image](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/7254c8a7-567c-4a72-95cf-faad7af4b446)
-
+OpenTrench3D comprises ~528 million points. The below figure, displays the number of point clouds in each area and the number of points per class and in total (stated in thousands).
+![dataset-statistics](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/cd6e58f0-5dfa-4af5-bd95-38253abf5aec)
 
 # Capturing Method:
-TODO
+The OpenTrench3D dataset is gathered using close-range photogrammetry captured using video recordings from everyday smartphones.
+The procedure is divided into three straightforward steps:
+1. Apply markings around the open trench, used as Ground Control Points (GCP), possibly using a spray marker.
+2. Carefully video record the trench from various angles, ensuring the camera is aimed down towards the utilities visible in the trench.
+3. Upload the captured video through the companion application. Subsequent, the video data is then send to a server for processing into a 3D point cloud.
 
 # Download:
-OpenTrench3D comprises 310 point clouds in .ply file format:
+OpenTrench3D comprises 310 point clouds in .ply file format with the following attributes: [X, Y, Z, R, G, B, C]
+- X, Y, Z: x-, y- and z-coordinates in meters
+- R, G, B: Red- Green and Blue color channel (0-255)
+- C: Class id (0, 1, 2, 3 or 4)
 
 **OpenTrench3D on Kaggle**: [link](https://www.kaggle.com/datasets/hestogpony/opentrench3d/data?select=Examples)
 
