@@ -8,22 +8,21 @@ Identifying and classifying underground utilities is a task of growing importanc
 We present OpenTrench3D, a novel and comprehensive 3D Semantic Segmentation point cloud dataset designed for advancing the research and development in the urban underground utilities domain. 
 
 # Dataset:
-we introduce OpenTrench3D, the first publicly available point cloud dataset of underground utilities from open trenches. 
-It features 310 fully annotated point clouds consisting of a total of 528 million points categorised into 5 unique classes (see description under [**[Classes]**](#classes)).
+We introduce **OpenTrench3D**, the first publicly available point cloud dataset of underground utilities from open trenches. 
+It features 310 fully annotated point clouds consisting of a total of 528 million points categorised into 5 unique classes (see description [**Classes**](#classes)).
 OpenTrench3D comprises photogrammetrically derived 3D point clouds capturing detailed scenes of open trenches, revealing underground utilities.
 
-## Overview:
-The dataset consists of 310 point clouds collected across 7 distinct areas, which include 5 water utility areas collected in Copenhagen, Denmark and 2 district heating utility areas, collected in Kalundborg, Denmark.
-
-![Group 96 (2)](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/cffeaf36-3768-4aac-830b-ed3fea61de6e)
+## Overview
+The dataset consists of 310 point clouds collected across 7 distinct areas, which include 5 water project areas and 2 district heating project areas:
+![dataset-overview](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/9bd90aa7-e170-4e96-a3c2-7d192d116acc)
 
 ## Classes:
 OpenTrench3D features 5 classes: 
-- Main Utility (id: 0)
-- Other Utility (id: 1)
-- Trench (id: 2)
-- Inactive Utility (id: 3)
-- Misc (ignored in training/evaluation) (id: 4)
+- **Main Utility** (id: 0): Newly installed utilities, which is the main utility of interest for surveying and mapping. In our dataset, this class is representing two distinct types of utilities: water and district heating.
+- **Other Utility** (id: 1): Existing utilities uncovered during excavation belonging to other utility owners.
+- **Trench** (id: 2): The surrounding open excavation pit where the utilities are laid.
+- **Inactive Utility** (id: 3): Out-of-service utilities belonging to the utility owner.
+- **Misc** (id: 4): Miscellaneous trench items such as pipe-like objects, work equipment and left-over cut pipe segments **(ignored in training/evaluation)**
 
 ![gew](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/b56bf874-0142-4a74-867c-886037431aec)
 
@@ -35,7 +34,7 @@ The format of a points cloud is the following: [X, Y, Z, R, G, B, C]
 - R: Red color channel (0-255)
 - G: Green color channel (0-255)
 - B: Blue color channel (0-255)
-- C: Class id (0, 1, 2 or 3)
+- C: Class id (0, 1, 2, 3 or 4) 
 
 ## Statistics
 OpenTrench3D comprises ~498 million points. The below figure, displays the number of point clouds in each area and the number of points per class and in total (stated in thousands).
