@@ -30,6 +30,15 @@ OpenTrench3D features 5 classes:
 OpenTrench3D comprises ~528 million points. The below figure, displays the number of point clouds in each area and the number of points per class and in total (stated in thousands).
 ![dataset-statistics](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/cd6e58f0-5dfa-4af5-bd95-38253abf5aec)
 
+# Results
+## 5-fold cross-validation on the water areas
+We conduct a 5-fold cross-validation on the water areas and in two rounds. Initially, we include the Inactive Utility class during training and evaluation and subsequently, we ignore it. The results are shown in below table:
+![results-5-fold-cross-validation](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/5fb92ce3-4703-42a5-8fb2-f03b103ff6c7)
+
+## Fine-tuning evaluation on heating areas
+We conduct We conduct a fine-tuning evaluation on the heating areas, by first pre-training model weights on Water Area 1-4. Secondly, we fine-tune the model weights on 1, 5, 10, 20 and all (29) samples from Heating Area 1. Finally, the fine-tuned models are evaluated on point clouds from Heating Area 2. The results are shown in the below figure:
+<img width="8873" alt="results-fine-tuning-evaluation" src="https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/07a3b7d6-d40a-4d72-9a44-29141b208fdf">
+
 # Capturing Method:
 The OpenTrench3D dataset is gathered using close-range photogrammetry captured using video recordings from everyday smartphones.
 The procedure is divided into three straightforward steps:
@@ -46,9 +55,6 @@ OpenTrench3D comprises 310 point clouds in .ply file format with the following a
 **OpenTrench3D on Kaggle**: [link](https://www.kaggle.com/datasets/hestogpony/opentrench3d/data?select=Examples)
 
 **Direct Download link (~6GB compressed and ~22.5GB when uncompressed)**: [link](https://www.kaggle.com/datasets/hestogpony/opentrench3d/download?datasetVersionNumber=1)
-
-
-# Results
 
 # License:
 OpenTrench3D is distributed under the [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
