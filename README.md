@@ -33,11 +33,16 @@ We conduct a 5-fold cross-validation on the water areas and in two rounds. Initi
 ![results-5-fold-cross-validation](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/667567d3-c7a0-474f-bafa-6ac137f5d375)
 
 ## Fine-tuning evaluation on heating areas
-We conduct We conduct a fine-tuning evaluation on the heating areas, by first pre-training model weights on Water Area 1-4. Secondly, we fine-tune the model weights on 1, 5, 10, 20 and all (29) samples from Heating Area 1. Finally, the fine-tuned models are evaluated on point clouds from Heating Area 2. The results are shown in the below figure:
+We conduct We conduct a fine-tuning evaluation on the heating areas in the following way: 
+1. pre-train model weights on Water Area 1-4.
+2. Fine-tune model weights on 1, 5, 10, 20 and all (29) samples from Heating Area 1.
+3. Evaluate the fine-tuned models on Heating Area 2.
+The results are shown in the below figure:
 
 <img width="8873" alt="results-fine-tuning-evaluation" src="https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/07a3b7d6-d40a-4d72-9a44-29141b208fdf">
 
-Qualitative results of a pre-trained PointNeXt model, a PointNeXt models trained on 1 and 10 samples from Heat Area 1 and a pre-trained and fine-tuned PointNeXt models fine-tuned on 1 and 10 samples were only weights of the segmentation head are tuned:
+### Qualitative results
+Here we compare the inference of a PointNeXt model trained on Water Area 1-4, a PointNeXt models trained on 1 and 10 samples from Heat Area 1 and a pre-trained and fine-tuned PointNeXt models fine-tuned on 1 and 10 samples:
 
 ![qualitative-results](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/022c34f1-7543-413e-837d-5253ef798b2d)
 
