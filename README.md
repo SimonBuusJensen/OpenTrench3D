@@ -35,7 +35,7 @@ The OpenTrench3D dataset is gathered using close-range photogrammetry captured u
 The procedure is divided into three straightforward steps:
 1. Apply markings around the open trench, used as Ground Control Points (GCP), possibly using a spray marker.
 2. Carefully video record the trench from various angles, ensuring the camera is aimed down towards the utilities visible in the trench.
-3. Upload the captured video through the companion application. Subsequent, the video data is then send to a server for processing into a 3D point cloud.
+3. Upload the captured video through the [SmartSurvey](https://it34.com/en/services/smartsurvey-app-en/) application. Subsequent, the video data is then send to a server for processing into a 3D point cloud.
 
 # Download:
 OpenTrench3D comprises 310 point clouds in .ply file format with the following attributes: [X, Y, Z, R, G, B, C]
