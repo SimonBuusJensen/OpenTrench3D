@@ -8,6 +8,8 @@ Identifying and classifying underground utilities is a task of growing importanc
 We present OpenTrench3D, a novel and comprehensive 3D Semantic Segmentation point cloud dataset designed for advancing the research and development in the urban underground utilities domain. 
 
 # Dataset:
+we introduce OpenTrench3D, the first publicly available point cloud dataset of underground utilities from open trenches. 
+It features 310 fully annotated point clouds consisting of a total of 528 million points categorised into 5 unique classes (see #classes).
 OpenTrench3D comprises photogrammetrically derived 3D point clouds capturing detailed scenes of open trenches, revealing underground utilities.
 
 ## Overview:
@@ -20,7 +22,7 @@ OpenTrench3D features 5 classes:
 - Main Utility (id: 0)
 - Other Utility (id: 1)
 - Trench (id: 2)
-- Inactive Utility (ignored in training/evaluation) (id: 3)
+- Inactive Utility (id: 3)
 - Misc (ignored in training/evaluation) (id: 4)
 
 ![gew](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/b56bf874-0142-4a74-867c-886037431aec)
