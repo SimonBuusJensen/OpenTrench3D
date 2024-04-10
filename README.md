@@ -37,6 +37,8 @@ We conduct We conduct a fine-tuning evaluation on the heating areas, by first pr
 
 <img width="8873" alt="results-fine-tuning-evaluation" src="https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/07a3b7d6-d40a-4d72-9a44-29141b208fdf">
 
+![qualitative-results](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/022c34f1-7543-413e-837d-5253ef798b2d)
+
 # Capturing Method:
 The OpenTrench3D dataset is gathered using close-range photogrammetry captured using video recordings from everyday smartphones.
 The procedure is divided into three straightforward steps:
