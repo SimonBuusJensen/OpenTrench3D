@@ -33,10 +33,11 @@ OpenTrench3D comprises ~528 million points. The below figure, displays the numbe
 # Results
 ## 5-fold cross-validation on the water areas
 We conduct a 5-fold cross-validation on the water areas and in two rounds. Initially, we include the Inactive Utility class during training and evaluation and subsequently, we ignore it. The results are shown in below table:
-<img width="4400" alt="results-fine-tuning-evaluation" src="https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/5fb92ce3-4703-42a5-8fb2-f03b103ff6c7">
+<img width="2200" alt="results-fine-tuning-evaluation" src="https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/5fb92ce3-4703-42a5-8fb2-f03b103ff6c7">
 
 ## Fine-tuning evaluation on heating areas
 We conduct We conduct a fine-tuning evaluation on the heating areas, by first pre-training model weights on Water Area 1-4. Secondly, we fine-tune the model weights on 1, 5, 10, 20 and all (29) samples from Heating Area 1. Finally, the fine-tuned models are evaluated on point clouds from Heating Area 2. The results are shown in the below figure:
+
 <img width="8873" alt="results-fine-tuning-evaluation" src="https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/07a3b7d6-d40a-4d72-9a44-29141b208fdf">
 
 # Capturing Method:
