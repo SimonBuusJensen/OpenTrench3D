@@ -13,7 +13,7 @@ It features 310 fully annotated point clouds consisting of a total of 528 millio
 OpenTrench3D comprises photogrammetrically derived 3D point clouds capturing detailed scenes of open trenches, revealing underground utilities.
 
 ## Overview
-The dataset consists of 310 point clouds collected across 7 distinct areas, which include 5 water project areas and 2 district heating project areas:
+The dataset consists of 310 point clouds which comprises ~528 million points collected across 7 distinct areas, which include 5 water project areas and 2 district heating project areas:
 ![dataset-overview](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/9bd90aa7-e170-4e96-a3c2-7d192d116acc)
 
 ## Classes:
@@ -25,10 +25,6 @@ OpenTrench3D features 5 classes:
 - **Misc** (id: 4): Miscellaneous trench items such as pipe-like objects, work equipment and left-over cut pipe segments **(ignored in training/evaluation)**
 
 ![gew](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/b56bf874-0142-4a74-867c-886037431aec)
-
-## Statistics
-OpenTrench3D comprises ~528 million points. The below figure, displays the number of point clouds in each area and the number of points per class and in total (stated in thousands).
-![dataset-statistics](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/cd6e58f0-5dfa-4af5-bd95-38253abf5aec)
 
 # Results
 ## 5-fold cross-validation on the water areas
