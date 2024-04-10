@@ -37,6 +37,8 @@ We conduct We conduct a fine-tuning evaluation on the heating areas, by first pr
 
 <img width="8873" alt="results-fine-tuning-evaluation" src="https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/07a3b7d6-d40a-4d72-9a44-29141b208fdf">
 
+Qualitative results of a pre-trained PointNeXt model, a PointNeXt models trained on 1 and 10 samples from Heat Area 1 and a pre-trained and fine-tuned PointNeXt models fine-tuned on 1 and 10 samples were only weights of the segmentation head are tuned:
+
 ![qualitative-results](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/022c34f1-7543-413e-837d-5253ef798b2d)
 
 # Capturing Method:
