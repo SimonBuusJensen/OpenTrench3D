@@ -5,19 +5,19 @@
 
 The official repository of the OpenTrench3D dataset.
 Identifying and classifying underground utilities is a task of growing importance for efficient and effective urban planning and infrastructure maintenance. 
-We present OpenTrench3D, a novel and comprehensive 3D Semantic Segmentation point cloud dataset designed for advancing the research and development in the urban underground utilities domain. 
+We present OpenTrench3D, a novel and comprehensive 3D Semantic Segmentation point cloud dataset designed for advancing research and development in the underground utility domain. 
 
 # Dataset:
 We introduce **OpenTrench3D**, the first publicly available point cloud dataset of underground utilities from open trenches. 
 It features 310 fully annotated point clouds consisting of a total of 528 million points categorised into 5 unique classes (see description [**Classes**](#classes)).
-OpenTrench3D comprises photogrammetrically derived 3D point clouds capturing detailed scenes of open trenches, revealing underground utilities.
+OpenTrench3D consists of photogrammetrically derived 3D point clouds capturing detailed scenes of open trenches, revealing underground utilities.
 
 ## Overview
-The dataset consists of 310 point clouds which comprises ~528 million points collected across 7 distinct areas, which include 5 water project areas and 2 district heating project areas:
+The dataset consists of 310 point clouds with a total of ~528 million points collected across 7 distinct areas, which include 5 water project areas and 2 district heating project areas:
 ![dataset-overview](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/9bd90aa7-e170-4e96-a3c2-7d192d116acc)
 
 ## Classes:
-OpenTrench3D features 5 classes: 
+OpenTrench3D features 5 classes following a utility owner-centric classification scheme: 
 - **Main Utility** (id: 0): Newly installed utilities, which is the main utility of interest for surveying and mapping. In our dataset, this class is representing two distinct types of utilities: water and district heating.
 - **Other Utility** (id: 1): Existing utilities uncovered during excavation belonging to other utility owners.
 - **Trench** (id: 2): The surrounding open excavation pit where the utilities are laid.
@@ -42,7 +42,7 @@ The results are shown in the below figure:
 <img width="8873" alt="results-fine-tuning-evaluation" src="https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/07a3b7d6-d40a-4d72-9a44-29141b208fdf">
 
 ### Qualitative results
-Here we compare the inference of a PointNeXt model trained on Water Area 1-4, a PointNeXt models trained on 1 and 10 samples from Heat Area 1 and a pre-trained and fine-tuned PointNeXt models fine-tuned on 1 and 10 samples:
+Here we compare the inference of a PointNeXt model trained on Water Area 1-4, a PointNeXt model trained on 1 and 10 samples from Heat Area 1 and a pre-trained and fine-tuned PointNeXt models fine-tuned on 1 and 10 samples:
 
 ![qualitative-results](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/022c34f1-7543-413e-837d-5253ef798b2d)
 
@@ -51,12 +51,12 @@ The OpenTrench3D dataset is gathered using close-range photogrammetry captured u
 The procedure is divided into three straightforward steps:
 1. Apply markings around the open trench, used as Ground Control Points (GCP), possibly using a spray marker.
 2. Carefully video record the trench from various angles, ensuring the camera is aimed down towards the utilities visible in the trench.
-3. Upload the captured video through the [SmartSurvey](https://it34.com/en/services/smartsurvey-app-en/) application. Subsequent, the video data is then send to a server for processing into a 3D point cloud.
+3. Upload the captured video through the [SmartSurvey](https://it34.com/en/services/smartsurvey-app-en/) application. Subsequently, the video data is sent to a server for processing into a 3D point cloud.
 
 # Download:
 OpenTrench3D comprises 310 point clouds in .ply file format with the following attributes: [X, Y, Z, R, G, B, C]
 - X, Y, Z: x-, y- and z-coordinates in meters
-- R, G, B: Red- Green and Blue color channel (0-255)
+- R, G, B: Red, Green and Blue color channel (0-255)
 - C: Class id (0, 1, 2, 3 or 4)
 
 **OpenTrench3D on Kaggle**: [link](https://www.kaggle.com/datasets/hestogpony/opentrench3d/data?select=Examples)
