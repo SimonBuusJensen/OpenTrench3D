@@ -12,7 +12,7 @@ We present OpenTrench3D, a novel and comprehensive 3D Semantic Segmentation poin
 
 # Dataset:
 We introduce **OpenTrench3D**, the first publicly available point cloud dataset of underground utilities from open trenches. 
-It features 310 fully annotated point clouds consisting of a total of 528 million points categorised into 5 unique classes (see description [**Classes**](#classes)).
+It features **310 fully annotated point clouds** consisting of a total of **528 million points** categorised into **5 unique classes** (see description [**Classes**](#classes)).
 OpenTrench3D consists of photogrammetrically derived 3D point clouds capturing detailed scenes of open trenches, revealing underground utilities.
 
 ## Overview
