@@ -67,7 +67,7 @@ OpenTrench3D comprises 310 point clouds in .ply file format with the following a
 **Direct Download link (~6GB compressed and ~22.5GB when uncompressed)**: [link](https://www.kaggle.com/datasets/hestogpony/opentrench3d/download?datasetVersionNumber=1)
 
 #  Acknowledgement
-We thank the students who assisted in data annotation, and to IT34, Ambolt AI, Innovation Fund Denmark, DigitalLead and AI Denmark for their support and funding. 
+We thank the students who assisted in data annotation, and to [IT34](https://it34.com/en/), [Ambolt AI](https://ambolt.io/en/), Innovation Fund Denmark, DigitalLead and [AI Denmark](https://aidenmark.dk/) for their support and funding. 
 Special thanks to Kalundborg and Novafos Utility Company for granting data access.
 
 # License:
