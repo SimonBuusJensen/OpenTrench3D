@@ -1,5 +1,5 @@
 # OpenTrench3D: A Photogrammetric 3D Point Cloud Dataset for Semantic Segmentation of Underground Utilities
-[**[Paper]**](https://arxiv.org/abs/2404.07711) [**[Download]**](#download) [**[Results]**](#results)
+[**[Paper]**](https://arxiv.org/abs/2404.07711) [**[Download]**](#download) [**[Results]**](#results) [**[Quick Start]**](#quick-start)
 
 ![Group 69](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/08534599-0b4a-4e17-88ee-7b9bacf99d6d)
 
@@ -28,6 +28,9 @@ OpenTrench3D features 5 classes following a utility owner-centric classification
 - **Misc** (id: 4): Miscellaneous trench items such as pipe-like objects, work equipment and left-over cut pipe segments **(ignored in training/evaluation)**
 
 ![gew](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/b56bf874-0142-4a74-867c-886037431aec)
+
+# Quick Start
+See the [PointCloud_Sample_Downloader_and_Visualizer.ipynb](https://github.com/SimonBuusJensen/OpenTrench3D/blob/main/PointCloud_Sample_Downloader_and_Visualizer.ipynb) Jupyter Notebook for instructions on how to download samples from the dataset and visualize them using Python (Jupyter Notebook and Open3D)
 
 # Results
 ## 5-fold cross-validation on the water areas
