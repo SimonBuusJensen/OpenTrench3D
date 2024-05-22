@@ -1,0 +1,2 @@
+jupyter             # for running the notebook
+open3d              # for visualization of point clouds
