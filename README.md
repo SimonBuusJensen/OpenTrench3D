@@ -1,5 +1,5 @@
 # OpenTrench3D: A Photogrammetric 3D Point Cloud Dataset for Semantic Segmentation of Underground Utilities
-[**[Paper]**](https://arxiv.org/abs/2404.07711) [**[Download]**](#download) [**[Results]**](#results) [**[Quick Start]**](#quick start)
+[**[Paper]**](https://arxiv.org/abs/2404.07711) [**[Download]**](#download) [**[Results]**](#results) [**[Quick Start]**](#quickstart)
 
 ![Group 69](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/08534599-0b4a-4e17-88ee-7b9bacf99d6d)
 
