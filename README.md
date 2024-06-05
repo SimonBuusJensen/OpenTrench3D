@@ -30,6 +30,10 @@ OpenTrench3D features 5 classes following a utility owner-centric classification
 ![gew](https://github.com/SimonBuusJensen/OpenTrench3D/assets/32246995/b56bf874-0142-4a74-867c-886037431aec)
 
 # Quick Start
+```bash
+$ git clone git@github.com:SimonBuusJensen/OpenTrench3D.git
+$ cd OpenTrench3D
+```
 Follow the instructions in [PointCloud_Sample_Downloader_and_Visualizer.ipynb](https://github.com/SimonBuusJensen/OpenTrench3D/blob/main/PointCloud_Sample_Downloader_and_Visualizer.ipynb) on how to download samples from the dataset and visualize them using Python (Jupyter Notebook and Open3D). This has been tested with python 3.8.
 
 # Results
