@@ -36,7 +36,7 @@ $ git clone git@github.com:SimonBuusJensen/OpenTrench3D.git
 $ cd OpenTrench3D
 ```
 ### Download and Visualize Samples:
-Follow the instructions in [PointCloud_Sample_Downloader_and_Visualizer.ipynb](https://github.com/SimonBuusJensen/OpenTrench3D/blob/main/PointCloud_Sample_Downloader_and_Visualizer.ipynb) on how to download samples from the dataset and visualize them using Python (Has been tested on python 3.8)
+Follow the instructions in [PointCloud_Sample_Downloader_and_Visualizer.ipynb](https://github.com/SimonBuusJensen/OpenTrench3D/blob/main/PointCloud_Sample_Downloader_and_Visualizer.ipynb) on how to download 2 samples from the dataset and visualize them using Python (Tested on python 3.8)
 
 # Results
 ## 5-fold cross-validation on the water areas
